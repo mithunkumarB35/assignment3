@@ -63,4 +63,4 @@ function megaFriend(names) {
     }
     return big_name;
 }
-console.log(findLargeName(["Fahim", "Fuad", "Shaurav"]));
+console.log(megaFriend(["Fahim", "Fuad", "Shaurav"]));
