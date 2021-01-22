@@ -3,18 +3,18 @@
 // problem-1 || kilometer to meter 
 
 function kilometerToMeter(number) {
-    var negative = [-1, -0];
-    if (number <= negative) {
+    var negative = -1;
+    if (number <= negative ) {
         return " please enter a positive number ";
     }
     else {
         return number * 1000;
     }
 }
-console.log(kilometerToMeter(50));
+console.log(kilometerToMeter(40));
 
 
-// problem-2 || budget calculator
+//problem-2 || budget calculator
 
 function budgetCalculator(watch, mobile, laptop) {
     watchPrice = 50;
@@ -30,7 +30,7 @@ function budgetCalculator(watch, mobile, laptop) {
 }
 console.log(budgetCalculator(10, 5, 3));
 
-// problem-3 || hotel rent calculator
+//problem-3 || hotel rent calculator
 
 
 function hotelCost(days) {
@@ -52,10 +52,10 @@ function hotelCost(days) {
     }
     return day;
 }
-console.log(hotelCost(-2));
+console.log(hotelCost(11));
 
 
-// problem-4 || find out a large number from list
+//problem-4 || find out a large number from list
 
 function findLargeName(names) {
     var max = 0;
