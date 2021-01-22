@@ -44,15 +44,10 @@ function hotelCost(days) {
         var remaining = days - 10;
         var second10 = remaining * 80;
         day = first10 + second10;
-    } else {
-        for (i = 21; i <= days; i++) {
-            day = days * 50;
-        }
-
     }
     return day;
 }
-console.log(hotelCost(11));
+console.log(hotelCost(10));
 
 
 //problem-4 || find out a large number from list
