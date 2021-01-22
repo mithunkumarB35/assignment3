@@ -4,7 +4,7 @@
 
 function kilometerToMeter(number) {
     var negative = -1;
-    if (number <= negative ) {
+    if (number <= negative) {
         return " please enter a positive number ";
     }
     else {
@@ -52,7 +52,7 @@ console.log(hotelCost(10));
 
 //problem-4 || find out a large number from list
 
-function findLargeName(names) {
+function megaFriend(names) {
     var max = 0;
     var big_name;
     for (i = 0; i < names.length; i++) {
